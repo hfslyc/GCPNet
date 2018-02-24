@@ -100,7 +100,6 @@ class MITSceneDataLayer(caffe.Layer):
 
         #random flip image
         if self.flip or self.split == 'train' and random.randint(0,1):
-            print 'flip'
             self.data = self.data[:,:,::-1]
             self.label = self.label[:,:,::-1]
             self.prior_spatial = self.prior_spatial[:,:,::-1]

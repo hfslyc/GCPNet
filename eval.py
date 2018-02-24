@@ -38,8 +38,6 @@ for i in range(val_num):
         start = time.time()
         net.forward()        
         score = net.blobs['score'].data[0].copy()
-
-        print(score.shape)
        
         net.blobs['scale_index_param'].data[...] = s, i, 1
         net.forward()
