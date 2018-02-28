@@ -18,7 +18,7 @@ Please cite our paper if you find it useful for your research.
 @inproceedings{hung2017scene,
   title={Scene Parsing With Global Context Embedding},
   author={Hung, Wei-Chih and Tsai, Yi-Hsuan and Shen, Xiaohui and Lin, Zhe and Sunkavalli, Kalyan and Lu, Xin and Yang, Ming-Hsuan},
-  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  booktitle={IEEE International Conference on Computer Vision (ICCV)},
   year={2017}
 }
 ```
