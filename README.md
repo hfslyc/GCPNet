@@ -15,11 +15,11 @@ and [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). In ICCV, 2017.
 Please cite our paper if you find it useful for your research.
 
 ```
-@article{Hung_parsing_2018,
-  author = {W.-C. Hung and Y.-H. Tsai and X. Shen and Z. Lin and K. Sunkavalli and X. Lu and M.-H. Yang},
-  journal = {ICCV},
-  title = {Scene Parsing with Global Context Embedding},
-  year = {2017}
+@inproceedings{hung2017scene,
+  title={Scene Parsing With Global Context Embedding},
+  author={Hung, Wei-Chih and Tsai, Yi-Hsuan and Shen, Xiaohui and Lin, Zhe and Sunkavalli, Kalyan and Lu, Xin and Yang, Ming-Hsuan},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  year={2017}
 }
 ```
 
