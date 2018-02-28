@@ -23,6 +23,12 @@ Please cite our paper if you find it useful for your research.
 }
 ```
 
+## Prerequisite
+
+* DeepLab-v2 caffe. You will need the this updated version [[link]](https://github.com/hfslyc/Caffe-DeepLab-v2-Reduced) for most recent machine setups.
+* A GPU with at least 12GB
+
+
 # Test  on ADE20k validation set
 
 * Download the [ADE20k](http://groups.csail.mit.edu/vision/datasets/ADE20K/) dataset and put it in ```data/```.
