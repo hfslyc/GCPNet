@@ -12,6 +12,17 @@ Xin Lu,
 and [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). In ICCV, 2017.
 
 
+Please cite our paper if you find it useful for your research.
+
+```
+@article{Hung_parsing_2018,
+  author = {W.-C. Hung and Y.-H. Tsai and X. Shen and Z. Lin and K. Sunkavalli and X. Lu and M.-H. Yang},
+  journal = {ICCV},
+  title = {Scene Parsing with Global Context Embedding},
+  year = {2017}
+}
+```
+
 # Test  on ADE20k validation set
 
 * Download the [ADE20k](http://groups.csail.mit.edu/vision/datasets/ADE20K/) dataset and put it in ```data/```.
