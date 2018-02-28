@@ -29,7 +29,7 @@ Please cite our paper if you find it useful for your research.
 * A GPU with at least 12GB
 
 
-# Test  on ADE20k validation set
+## Test  on ADE20k validation set
 
 * Download the [ADE20k](http://groups.csail.mit.edu/vision/datasets/ADE20K/) dataset and put it in ```data/```.
 
