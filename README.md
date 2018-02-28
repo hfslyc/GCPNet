@@ -13,6 +13,36 @@ Xin Lu,
 and [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/)
 
 
-# Updates
+# Test  on ADE20k validation set
 
-Releasing evaluation code on ADE20k
+* Download the [ADE20k](http://groups.csail.mit.edu/vision/datasets/ADE20K/) dataset and put it in ```data/```.
+
+The directories should be like this:
+```
+./data/ADE20k/annotations/validation
+             /images/validation
+```
+
+* Download pretrained model
+
+```
+bash get_model.sh
+```
+
+* Download precomputed context features/priors of ADE20k val set.
+
+```
+bash get_prior.sh
+```
+
+* Execute evaluation script:
+
+```
+python eval.py --prototxt prototxt/ade20k_val.prototxt \
+               --model models/ade20k_full.caffemodel \
+               --save-dir results/ade20k/val/ \
+               --gpu 0
+```
+The result images will be saved at ```results/ade20k/val/```.
+
+

@@ -17,7 +17,7 @@ layer {
   python_param {
     module: "mit_scene_layers_ar"
     layer: "MITSceneDataLayer"
-    param_str: "{\'enc_mat\': \'val_{}_150000\', \'seed\': 1337, \'crop_size\': 321, \'enc_dir\': \'../Context_MIT/TFIDF\', \'split\': \'val\', \'ann_dir\': \'../mit-sceneparsing/ADEChallengeData2016/annotations/validation\', \'img_num\': 2000, \'img_dir\': \'../mit-sceneparsing/ADEChallengeData2016/images/validation\', \'prior_dir\': \'../MIT_prior/siamese_object_prior_5_val_mat_49\'}"
+    param_str: "{\'enc_mat\': \'val_{}_150000\', \'seed\': 1337, \'crop_size\': 321, \'enc_dir\': \'context_feats/ade20k/val\', \'split\': \'val\', \'ann_dir\': \'data/ADE20k/annotations/validation\', \'img_num\': 2000, \'img_dir\': \'data/ADE20k/images/validation\', \'prior_dir\': \'priors/ade20k/val\'}"
   }
 }
 
@@ -26,9 +26,6 @@ layer {
   type: "Silence"
   bottom: "conv5_3_cxt"
   bottom: "fc6_cxt"
-  # bottom: "fc7_cxt"
-  # bottom: "prior_global"
-  # bottom: "prior_spatial"
 }
 
 
