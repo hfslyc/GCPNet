@@ -9,7 +9,7 @@ This repo is the caffe implementation of the following paper:
 [Zhe Lin](https://research.adobe.com/person/zhe-lin/), 
 [Kalyan Sunkavalli](https://research.adobe.com/person/kalyan-sunkavalli/), 
 Xin Lu, 
-and [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/)
+and [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/). In ICCV, 2017.
 
 
 # Test  on ADE20k validation set
